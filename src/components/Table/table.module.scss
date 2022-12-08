@@ -1,8 +1,10 @@
 .fsTable {
+  background-color: red;
   [data-fs-table] {
     margin: 2rem 60px;
     border-spacing: 0;
     border-collapse: collapse;
+    width: 55rem;
 
     thead tr {
       height: 3rem;
@@ -12,7 +14,7 @@
 
       th {
         border: 1px solid var(--color-neutral-0);
-        padding-left: 0.5rem;
+        padding: 0 0.5rem;
         text-align: left;
       }
     }
@@ -22,21 +24,8 @@
 
       td {
         border: 1px solid var(--color-neutral-0);
-        padding-left: 0.5rem;
+        padding: 0 0.5rem;
       }
     }
-
-    [data-fs-table-id] {
-      min-width: 6rem;
-    }
-
-    [data-fs-table-name] {
-      min-width: 20rem;
-    }
-
-    [data-fs-table-login] {
-      min-width: 8rem;
-    }
   }
-
 }

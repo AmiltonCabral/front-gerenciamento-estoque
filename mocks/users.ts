@@ -1,5 +1,6 @@
 export const users: Users = {
-  users: [
+  header: ['Código', 'Nome', 'Login'],
+  data: [
     {
       id: 1,
       name: 'Administrator',
@@ -25,14 +26,19 @@ export const users: Users = {
       name: 'Aline Dani Alves',
       login: 'rh',
     },
-  ]
+    {
+      id: 6,
+      name: 'WWW Welber Com',
+      login: 'welbinho',
+    },
+  ],
 }
 
 type Users = {
-  users:
-  {
-    id: number,
-    name: string,
-    login: string,
-  }[],
+  header: string[]
+  data: {
+    id: number
+    name: string
+    login: string
+  }[]
 }
