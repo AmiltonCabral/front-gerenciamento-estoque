@@ -1,11 +1,11 @@
-import Button from '../Button/Button'
-import Input from '../Input/Input'
-import Table from '../Table/Table'
-import styles from './usuarios.module.scss'
+import Button from '../../components/Button'
+import Input from '../../components/Input'
+import Table from '../../components/Table'
+import styles from './users.module.scss'
 
-function Usuarios() {
+function Users() {
   return (
-    <div className={styles.fsUsuarios}>
+    <div className={styles.fsUsers}>
       <div data-fs-menu>
         <h2>Usuários</h2>
 
@@ -41,4 +41,4 @@ function Usuarios() {
   )
 }
 
-export default Usuarios
+export default Users
