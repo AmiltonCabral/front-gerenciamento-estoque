@@ -2,16 +2,16 @@
   min-width: 20rem;
   display: flex;
   flex-direction: row;
-  background-color: #FAF7F0;
+  background-color: var(--color-main-0);
   border-radius: 20px;
   width: 90rem;
   height: 46.4rem;
 
   [data-fs-menu] {
-    background-color: #98A8F8;
+    background-color: var(--color-main-3);
     width: 28rem;
     padding: 2rem;
-    color: #000;
+    color: var(--color-main-4);
     border-radius: 20px 0 0 20px;
   }
 
@@ -23,59 +23,14 @@
     [data-fs-form-label] {
       display: flex;
       flex-direction: column;
-      margin-bottom: .8rem;
-
-      input {
-        margin-top: .4rem;
-        padding: 1rem .5rem;
-      }
+      margin-bottom: 0.8rem;
     }
   }
 
   [data-fs-buttons] {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 6rem;
   }
-
-  [data-fs-table] {
-    margin: 2rem 60px;
-    border-spacing: 0;
-    border-collapse: collapse;
-
-    thead tr {
-      height: 3rem;
-      background-color: #98A8F8;
-      color: #000;
-      border-radius: 14px;
-
-      th {
-        border: 1px solid #7c89cc;
-        padding-left: 0.5rem;
-        text-align: left;
-      }
-    }
-
-    tbody tr {
-      height: 3rem;
-
-      td {
-        border: 1px solid #7c89cc;
-        padding-left: 0.5rem;
-      }
-    }
-
-    [data-fs-table-id] {
-      min-width: 6rem;
-    }
-
-    [data-fs-table-name] {
-      min-width: 20rem;
-    }
-
-    [data-fs-table-login] {
-      min-width: 8rem;
-    }
-  }
-
-
 }
