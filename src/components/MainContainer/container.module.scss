@@ -1,7 +1,8 @@
 .fsContainer {
   display: flex;
-  justify-content: center;
   align-items: center;
-  min-height: 100vh;
   background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+  height: 100%;
+  flex-direction: column;
+  gap: 3rem;
 }

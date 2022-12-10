@@ -8,10 +8,10 @@ interface Props {
 
 function MainContainer({ children }: Props) {
   return (
-    <>
+    <div className={styles.fsContainer}>
       <Navbar />
-      <main className={styles.fsContainer}>{children}</main>
-    </>
+      <main>{children}</main>
+    </div>
   )
 }
 
