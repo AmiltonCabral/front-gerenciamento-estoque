@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Login from '../components/Login'
-import styles from '../styles/Home.module.css'
-import Users from './users'
+import styles from '../styles/home.module.scss'
 
 export default function Home() {
   return (

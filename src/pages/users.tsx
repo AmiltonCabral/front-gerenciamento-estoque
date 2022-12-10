@@ -1,7 +1,7 @@
-import Button from '../../components/Button'
-import Input from '../../components/Input'
-import Table from '../../components/Table'
-import styles from './users.module.scss'
+import Button from '../components/Button'
+import Input from '../components/Input'
+import Table from '../components/Table'
+import styles from '../styles/users.module.scss'
 
 function Users() {
   return (

@@ -1,4 +1,4 @@
-import '../styles/globals.css'
+import '../styles/globals.scss'
 import '../styles/theme.scss'
 import type { AppProps } from 'next/app'
 import MainContainer from '../components/MainContainer'
