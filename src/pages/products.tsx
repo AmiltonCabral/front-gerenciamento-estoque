@@ -3,11 +3,11 @@ import Input from '../components/Input'
 import Table from '../components/Table'
 import styles from '../styles/entities-gallery.module.scss'
 
-function Users() {
+function Produtos() {
   return (
     <div className={styles.fsEntitiesGallery}>
       <div data-fs-menu>
-        <h2>Usuários</h2>
+        <h2>Produtos</h2>
 
         <form data-fs-form>
           <div>
@@ -16,22 +16,18 @@ function Users() {
               <Input type="number" />
             </label>
             <label data-fs-form-label>
-              Nome completo
+              Descrição do produto
               <Input type="text" />
             </label>
             <label data-fs-form-label>
-              Login
+              Valor
               <Input type="text" />
-            </label>
-            <label data-fs-form-label>
-              Senha
-              <Input type="password" />
             </label>
           </div>
 
           <div data-fs-buttons>
             <Button>Limpar</Button>
-            <Button>Salvar</Button>
+            <Button type="submit">Salvar</Button>
             <Button>Alterar</Button>
             <Button>Excluir</Button>
           </div>
@@ -45,4 +41,4 @@ function Users() {
   )
 }
 
-export default Users
+export default Produtos

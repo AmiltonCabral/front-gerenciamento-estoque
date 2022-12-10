@@ -10,7 +10,7 @@ function MainContainer({ children }: Props) {
   return (
     <div className={styles.fsContainer}>
       <Navbar />
-      <main>{children}</main>
+      <main data-fs-main>{children}</main>
     </div>
   )
 }

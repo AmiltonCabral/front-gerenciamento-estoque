@@ -1,11 +1,7 @@
-.fsUsers {
-  min-width: 20rem;
+.fsEntitiesGallery {
   display: flex;
   flex-direction: row;
-  background-color: var(--color-main-0);
-  border-radius: 20px;
-  width: 90rem;
-  // height: 46.4rem;
+  height: 100%;
 
   [data-fs-menu] {
     background-color: var(--color-main-3);
@@ -16,21 +12,28 @@
   }
 
   [data-fs-form] {
+    height: 37rem;
     display: flex;
     flex-direction: column;
-    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 
-    [data-fs-form-label] {
-      display: flex;
-      flex-direction: column;
-      margin-bottom: 0.8rem;
-    }
+  [data-fs-form-label] {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.8rem;
   }
 
   [data-fs-buttons] {
     display: flex;
     justify-content: space-between;
+    gap: 2rem;
     flex-wrap: wrap;
-    margin-top: 6rem;
+  }
+
+  [data-fs-table] {
+    width: 62rem;
+    padding: 3.2rem;
   }
 }

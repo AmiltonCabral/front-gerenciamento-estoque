@@ -12,7 +12,10 @@ function Navbar() {
           <Link href="/users">Usuários</Link>
         </li>
         <li data-fs-nabbar-item>
-          <Link href="/">Produtos</Link>
+          <Link href="/products">Produtos</Link>
+        </li>
+        <li data-fs-nabbar-item>
+          <Link href="/stock">Estoque</Link>
         </li>
       </ul>
     </nav>

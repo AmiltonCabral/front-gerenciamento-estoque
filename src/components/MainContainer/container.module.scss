@@ -5,4 +5,11 @@
   height: 100%;
   flex-direction: column;
   gap: 3rem;
+
+  [data-fs-main] {
+    background-color: var(--color-main-0);
+    border-radius: 20px;
+    width: 90rem;
+    height: 46.4rem;
+  }
 }
