@@ -1,5 +1,6 @@
 import Button from '../components/Button'
 import Input from '../components/Input'
+import Select from '../components/Select'
 import Table from '../components/Table'
 import styles from '../styles/entities-gallery.module.scss'
 
@@ -10,32 +11,36 @@ function Stock() {
         <h2>Estoque</h2>
 
         <form data-fs-form>
-          <div>
+          <div data-fs-form-inputs>
             <label data-fs-form-label>
               Tipo Movimentação
-              <select>
+              <Select>
                 <option value="entrada">Entrada</option>
-              </select>
+              </Select>
             </label>
-            <label data-fs-form-label>
+            <label data-fs-form-label="small">
               Quantidade
               <Input type="number" />
             </label>
-            <label data-fs-form-label>
+            <label data-fs-form-label="small">
               Valor
               <Input type="text" />
             </label>
             <label data-fs-form-label>
               Descrição do produto
-              <select>
-                <option value="0">Alguma entrada</option>
-              </select>
+              <Select>
+                <option value="0">Primeira entrada</option>
+                <option value="1">Segunda entrada</option>
+                <option value="2">Terceira entrada</option>
+              </Select>
             </label>
             <label data-fs-form-label>
               Filtro
-              <select>
-                <option value="0">Alguma entrada</option>
-              </select>
+              <Select>
+                <option value="0">Primeira entrada</option>
+                <option value="1">Segunda entrada</option>
+                <option value="2">Terceira entrada</option>
+              </Select>
             </label>
             <label data-fs-form-label>
               Pesquisar
@@ -46,7 +51,7 @@ function Stock() {
           <div data-fs-buttons>
             <Button>Buscar</Button>
             <Button type="submit">Salvar</Button>
-            <Button>Gerar Relatório</Button>
+            <Button data-fs-button-big>Gerar Relatório</Button>
           </div>
         </form>
       </div>
