@@ -1,5 +1,6 @@
 .fsNavbar {
-  position: relative;
+  position: absolute;
+  top: 0;
   width: 100%;
   height: 3.5rem;
   background-color: var(--color-navbar-bkg);
@@ -17,7 +18,7 @@
     list-style: none;
     gap: 4rem;
 
-    [data-fs-nabbar-item] {
+    [data-fs-navbar-item] {
       font-weight: 600;
       padding-bottom: 1px;
       border-bottom: 1px solid rgba(#ffffff, 0);

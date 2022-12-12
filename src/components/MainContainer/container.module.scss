@@ -4,12 +4,12 @@
   background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
   height: 100%;
   flex-direction: column;
+  justify-content: center;
   gap: 3rem;
 
   [data-fs-main] {
     background-color: var(--color-main-0);
     border-radius: 20px;
-    width: 90rem;
     height: 46.4rem;
   }
 }
